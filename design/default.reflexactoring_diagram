@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cn.edu.fudan="http://reflexactoring.com" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_V4ee4C3UEeS25unQr2BdhQ" type="Reflexactoring" name="default.reflexactoring_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_XbVYwC3UEeS25unQr2BdhQ" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="_XbVYxC3UEeS25unQr2BdhQ" type="5005"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_XbV_0C3UEeS25unQr2BdhQ" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_zeBWoC60EeSFCpatH6uqOw" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zeB9sC60EeSFCpatH6uqOw" type="5003"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zeBWoS60EeSFCpatH6uqOw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zeBWoi60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+        <element xmi:type="cn.edu.fudan:Class" href="default.reflexactoring#//@modules.0/@mappingTypes.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zeBWoy60EeSFCpatH6uqOw" x="103" y="59"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_XbVYwS3UEeS25unQr2BdhQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_XbVYwi3UEeS25unQr2BdhQ" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:Module" href="default.reflexactoring#//@modules.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XbVYwy3UEeS25unQr2BdhQ" x="-15" y="250" width="236" height="171"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_rThrMC3UEeS25unQr2BdhQ" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="_rThrNC3UEeS25unQr2BdhQ" type="5005"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_rThrNS3UEeS25unQr2BdhQ" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_zefQsC60EeSFCpatH6uqOw" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zefQtC60EeSFCpatH6uqOw" type="5003"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zefQsS60EeSFCpatH6uqOw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zefQsi60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+        <element xmi:type="cn.edu.fudan:Class" href="default.reflexactoring#//@modules.1/@mappingTypes.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zefQsy60EeSFCpatH6uqOw" x="60" y="34"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_rThrMS3UEeS25unQr2BdhQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_rThrMi3UEeS25unQr2BdhQ" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:Module" href="default.reflexactoring#//@modules.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rThrMy3UEeS25unQr2BdhQ" x="235" y="105" width="150" height="121"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_4tZ2YC3UEeS25unQr2BdhQ" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4tZ2ZC3UEeS25unQr2BdhQ" type="5005"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_4tZ2ZS3UEeS25unQr2BdhQ" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_zeJ5gC60EeSFCpatH6uqOw" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zeJ5hC60EeSFCpatH6uqOw" type="5003"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zeJ5gS60EeSFCpatH6uqOw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zeJ5gi60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+        <element xmi:type="cn.edu.fudan:Class" href="default.reflexactoring#//@modules.2/@mappingTypes.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zeJ5gy60EeSFCpatH6uqOw" x="158" y="84"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zeOK8C60EeSFCpatH6uqOw" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zeOyAC60EeSFCpatH6uqOw" type="5003"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zeOK8S60EeSFCpatH6uqOw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zeOK8i60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+        <element xmi:type="cn.edu.fudan:Class" href="default.reflexactoring#//@modules.2/@mappingTypes.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zeOK8y60EeSFCpatH6uqOw" x="158" y="84"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zeScYC60EeSFCpatH6uqOw" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zeTDcC60EeSFCpatH6uqOw" type="5003"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zeScYS60EeSFCpatH6uqOw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zeScYi60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+        <element xmi:type="cn.edu.fudan:Class" href="default.reflexactoring#//@modules.2/@mappingTypes.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zeScYy60EeSFCpatH6uqOw" x="158" y="84"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zeYjAC60EeSFCpatH6uqOw" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zeYjBC60EeSFCpatH6uqOw" type="5003"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zeYjAS60EeSFCpatH6uqOw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zeYjAi60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+        <element xmi:type="cn.edu.fudan:Class" href="default.reflexactoring#//@modules.2/@mappingTypes.3"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zeYjAy60EeSFCpatH6uqOw" x="158" y="84"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zekJMC60EeSFCpatH6uqOw" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zekJNC60EeSFCpatH6uqOw" type="5003"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zekJMS60EeSFCpatH6uqOw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zekJMi60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+        <element xmi:type="cn.edu.fudan:Class" href="default.reflexactoring#//@modules.2/@mappingTypes.4"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zekJMy60EeSFCpatH6uqOw" x="158" y="84"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zeoaoC60EeSFCpatH6uqOw" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zepBsC60EeSFCpatH6uqOw" type="5003"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zeoaoS60EeSFCpatH6uqOw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zeoaoi60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+        <element xmi:type="cn.edu.fudan:Class" href="default.reflexactoring#//@modules.2/@mappingTypes.5"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zeoaoy60EeSFCpatH6uqOw" x="158" y="84"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zet6MC60EeSFCpatH6uqOw" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zet6NC60EeSFCpatH6uqOw" type="5003"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zet6MS60EeSFCpatH6uqOw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zet6Mi60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+        <element xmi:type="cn.edu.fudan:Class" href="default.reflexactoring#//@modules.2/@mappingTypes.6"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zet6My60EeSFCpatH6uqOw" x="158" y="84"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zeyLoC60EeSFCpatH6uqOw" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zeyLpC60EeSFCpatH6uqOw" type="5003"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zeyLoS60EeSFCpatH6uqOw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zeyLoi60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+        <element xmi:type="cn.edu.fudan:Class" href="default.reflexactoring#//@modules.2/@mappingTypes.7"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zeyLoy60EeSFCpatH6uqOw" x="158" y="84"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_4tZ2YS3UEeS25unQr2BdhQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_4tZ2Yi3UEeS25unQr2BdhQ" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:Module" href="default.reflexactoring#//@modules.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4tZ2Yy3UEeS25unQr2BdhQ" x="445" y="75" width="346" height="221"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ErXdMC3VEeS25unQr2BdhQ" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ErXdNC3VEeS25unQr2BdhQ" type="5005"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ErXdNS3VEeS25unQr2BdhQ" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_zd5a0C60EeSFCpatH6uqOw" type="3002">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zd5a1C60EeSFCpatH6uqOw" type="5004"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zd5a0S60EeSFCpatH6uqOw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zd5a0i60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+        <element xmi:type="cn.edu.fudan:Interface" href="default.reflexactoring#//@modules.3/@mappingTypes.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zd5a0y60EeSFCpatH6uqOw" x="55" y="34"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_ErXdMS3VEeS25unQr2BdhQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ErXdMi3VEeS25unQr2BdhQ" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:Module" href="default.reflexactoring#//@modules.3"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ErXdMy3VEeS25unQr2BdhQ" x="235" y="410" width="141" height="121"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_HpKEAC3VEeS25unQr2BdhQ" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HpKEBC3VEeS25unQr2BdhQ" type="5005"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_HpKrEC3VEeS25unQr2BdhQ" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_zdoVEC60EeSFCpatH6uqOw" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zdo8IC60EeSFCpatH6uqOw" type="5003"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zdoVES60EeSFCpatH6uqOw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zdoVEi60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+        <element xmi:type="cn.edu.fudan:Class" href="default.reflexactoring#//@modules.4/@mappingTypes.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zdoVEy60EeSFCpatH6uqOw" x="155" y="54"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zdsmgC60EeSFCpatH6uqOw" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zdtNkC60EeSFCpatH6uqOw" type="5003"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zdsmgS60EeSFCpatH6uqOw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zdsmgi60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+        <element xmi:type="cn.edu.fudan:Class" href="default.reflexactoring#//@modules.4/@mappingTypes.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zdsmgy60EeSFCpatH6uqOw" x="155" y="54"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zdxfAC60EeSFCpatH6uqOw" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zdxfBC60EeSFCpatH6uqOw" type="5003"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zdxfAS60EeSFCpatH6uqOw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zdxfAi60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+        <element xmi:type="cn.edu.fudan:Class" href="default.reflexactoring#//@modules.4/@mappingTypes.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zdxfAy60EeSFCpatH6uqOw" x="155" y="54"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zd1JYC60EeSFCpatH6uqOw" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zd1JZC60EeSFCpatH6uqOw" type="5003"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zd1JYS60EeSFCpatH6uqOw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zd1JYi60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+        <element xmi:type="cn.edu.fudan:Class" href="default.reflexactoring#//@modules.4/@mappingTypes.3"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zd1JYy60EeSFCpatH6uqOw" x="155" y="54"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zd9sQC60EeSFCpatH6uqOw" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zd9sRC60EeSFCpatH6uqOw" type="5003"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zd9sQS60EeSFCpatH6uqOw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zd9sQi60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+        <element xmi:type="cn.edu.fudan:Class" href="default.reflexactoring#//@modules.4/@mappingTypes.4"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zd9sQy60EeSFCpatH6uqOw" x="155" y="54"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_HpKEAS3VEeS25unQr2BdhQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_HpKEAi3VEeS25unQr2BdhQ" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:Module" href="default.reflexactoring#//@modules.4"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HpKEAy3VEeS25unQr2BdhQ" x="435" y="380" width="341" height="161"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_V4ee4S3UEeS25unQr2BdhQ"/>
+  <element xmi:type="cn.edu.fudan:Reflexactoring" href="default.reflexactoring#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_LN4H8C3VEeS25unQr2BdhQ" type="4001" source="_XbVYwC3UEeS25unQr2BdhQ" target="_rThrMC3UEeS25unQr2BdhQ">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_LN4H8S3VEeS25unQr2BdhQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_LN4H8i3VEeS25unQr2BdhQ" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:ModuleDependency" href="default.reflexactoring#//@moduleDenpencies.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LN4H8y3VEeS25unQr2BdhQ" points="[12, -12, -62, 57]$[70, -68, -4, 1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LN59IC3VEeS25unQr2BdhQ" id="(0.7188612099644128,0.053763440860215055)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LN59IS3VEeS25unQr2BdhQ" id="(0.028409090909090908,0.3972602739726027)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Lw58gC3VEeS25unQr2BdhQ" type="4001" source="_XbVYwC3UEeS25unQr2BdhQ" target="_ErXdMC3VEeS25unQr2BdhQ">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_Lw58gS3VEeS25unQr2BdhQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Lw58gi3VEeS25unQr2BdhQ" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:ModuleDependency" href="default.reflexactoring#//@moduleDenpencies.1"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Lw58gy3VEeS25unQr2BdhQ" points="[5, 4, -68, -66]$[51, 53, -22, -17]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lw7xsC3VEeS25unQr2BdhQ" id="(0.7544483985765125,0.9516129032258065)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lw7xsS3VEeS25unQr2BdhQ" id="(0.022727272727272728,0.7417218543046358)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_OdoBcC3VEeS25unQr2BdhQ" type="4006" source="_4tZ2YC3UEeS25unQr2BdhQ" target="_rThrMC3UEeS25unQr2BdhQ">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_OdoBcS3VEeS25unQr2BdhQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_OdoBci3VEeS25unQr2BdhQ" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:ModuleExtend" href="default.reflexactoring#//@moduleDenpencies.2"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OdoBcy3VEeS25unQr2BdhQ" points="[-3, -3, 64, 53]$[-58, -55, 9, 1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Odp2oC3VEeS25unQr2BdhQ" id="(0.01048951048951049,0.36070381231671556)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Odp2oS3VEeS25unQr2BdhQ" id="(0.9818181818181818,0.4752475247524752)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_QDuckC3VEeS25unQr2BdhQ" type="4006" source="_HpKEAC3VEeS25unQr2BdhQ" target="_ErXdMC3VEeS25unQr2BdhQ">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_QDuckS3VEeS25unQr2BdhQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_QDucki3VEeS25unQr2BdhQ" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:ModuleExtend" href="default.reflexactoring#//@moduleDenpencies.3"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QDucky3VEeS25unQr2BdhQ" points="[-1, 0, 68, -62]$[-65, 62, 4, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QDwRwC3VEeS25unQr2BdhQ" id="(0.0,0.603448275862069)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QDwRwS3VEeS25unQr2BdhQ" id="(0.963855421686747,0.5675675675675675)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_TQvyMC3VEeS25unQr2BdhQ" type="4001" source="_4tZ2YC3UEeS25unQr2BdhQ" target="_HpKEAC3VEeS25unQr2BdhQ">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_TQvyMS3VEeS25unQr2BdhQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_TQvyMi3VEeS25unQr2BdhQ" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:ModuleDependency" href="default.reflexactoring#//@moduleDenpencies.4"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TQvyMy3VEeS25unQr2BdhQ" points="[-3, 2, 152, -146]$[-157, 136, -2, -12]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TQxAUC3VEeS25unQr2BdhQ" id="(0.3959537572254335,0.9864253393665159)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TQxnYC3VEeS25unQr2BdhQ" id="(0.4502923976608187,0.09482758620689655)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_mgXBsC3VEeS25unQr2BdhQ" type="4007" source="_XbVYwC3UEeS25unQr2BdhQ" target="_4tZ2YC3UEeS25unQr2BdhQ">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_mgXBsS3VEeS25unQr2BdhQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_mgXBsi3VEeS25unQr2BdhQ" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:ModuleCreation" href="default.reflexactoring#//@moduleDenpencies.5"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mgXBsy3VEeS25unQr2BdhQ" points="[0, -7, -431, 150]$[0, -212, -431, -55]$[441, -212, 10, -55]$[441, -182, 10, -25]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mgY24C3VEeS25unQr2BdhQ" id="(0.461864406779661,0.04093567251461988)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mgY24S3VEeS25unQr2BdhQ" id="(0.23125,0.11450381679389313)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_uqJzUC3VEeS25unQr2BdhQ" type="4007" source="_XbVYwC3UEeS25unQr2BdhQ" target="_HpKEAC3VEeS25unQr2BdhQ">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_uqJzUS3VEeS25unQr2BdhQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_uqJzUi3VEeS25unQr2BdhQ" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:ModuleCreation" href="default.reflexactoring#//@moduleDenpencies.6"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uqJzUy3VEeS25unQr2BdhQ" points="[0, 6, -416, -113]$[0, 155, -416, 36]$[416, 155, 0, 36]$[416, 126, 0, 7]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uqLBcC3VEeS25unQr2BdhQ" id="(0.4703389830508475,0.9649122807017544)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uqLBcS3VEeS25unQr2BdhQ" id="(0.22807017543859648,0.9568965517241379)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_qEG_0C3WEeS25unQr2BdhQ" type="4001" source="_rThrMC3UEeS25unQr2BdhQ" target="_ErXdMC3VEeS25unQr2BdhQ">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_qEG_0S3WEeS25unQr2BdhQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_qEG_0i3WEeS25unQr2BdhQ" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:ModuleDependency" href="default.reflexactoring#//@moduleDenpencies.7"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qEG_0y3WEeS25unQr2BdhQ" points="[-1, 4, 0, -145]$[-2, 138, -1, -11]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qEJcEC3WEeS25unQr2BdhQ" id="(0.4121212121212121,0.9603960396039604)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qEJcES3WEeS25unQr2BdhQ" id="(0.48295454545454547,0.019867549668874173)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_as2lEC6eEeSFCpatH6uqOw" type="4007" source="_4tZ2YC3UEeS25unQr2BdhQ" target="_HpKEAC3VEeS25unQr2BdhQ">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_as2lES6eEeSFCpatH6uqOw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_as2lEi6eEeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:ModuleCreation" href="default.reflexactoring#//@moduleDenpencies.8"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_as2lEy6eEeSFCpatH6uqOw" points="[0, 1, 0, -90]$[-5, 85, -5, -6]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_as3zMC6eEeSFCpatH6uqOw" id="(0.2976878612716763,0.995475113122172)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_as3zMS6eEeSFCpatH6uqOw" id="(0.3313782991202346,0.037267080745341616)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_nKMPgC6eEeSFCpatH6uqOw" type="4001" source="_4tZ2YC3UEeS25unQr2BdhQ" target="_ErXdMC3VEeS25unQr2BdhQ">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_nKMPgS6eEeSFCpatH6uqOw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_nKMPgi6eEeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:ModuleDependency" href="default.reflexactoring#//@moduleDenpencies.9"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nKMPgy6eEeSFCpatH6uqOw" points="[-122, 111, 191, -174]$[-247, 225, 66, -60]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zfjnsC60EeSFCpatH6uqOw" type="4003" source="_zeBWoC60EeSFCpatH6uqOw" target="_zeoaoC60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zfjnsS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zfjnsi60EeSFCpatH6uqOw" points="[0, 0, -460, 175]$[460, -175, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zfmrAC60EeSFCpatH6uqOw" type="4003" source="_zeBWoC60EeSFCpatH6uqOw" target="_zeScYC60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zfmrAS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.1"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zfmrAi60EeSFCpatH6uqOw" points="[0, 0, -460, 175]$[460, -175, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zfpuUC60EeSFCpatH6uqOw" type="4003" source="_zeBWoC60EeSFCpatH6uqOw" target="_zd5a0C60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zfpuUS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.2"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zfpuUi60EeSFCpatH6uqOw" points="[0, 0, -250, -160]$[250, 160, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zfsKkC60EeSFCpatH6uqOw" type="4003" source="_zeBWoC60EeSFCpatH6uqOw" target="_zd9sQC60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zfsKkS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.3"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zfsKki60EeSFCpatH6uqOw" points="[0, 0, -450, -130]$[450, 130, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zfvN4C60EeSFCpatH6uqOw" type="4003" source="_zeBWoC60EeSFCpatH6uqOw" target="_zet6MC60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zfvN4S60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.4"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zfvN4i60EeSFCpatH6uqOw" points="[0, 0, -460, 175]$[460, -175, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zfxqIC60EeSFCpatH6uqOw" type="4003" source="_zeBWoC60EeSFCpatH6uqOw" target="_zeyLoC60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zfxqIS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.5"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zfxqIi60EeSFCpatH6uqOw" points="[0, 0, -460, 175]$[460, -175, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zf0tcC60EeSFCpatH6uqOw" type="4003" source="_zeBWoC60EeSFCpatH6uqOw" target="_zd1JYC60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zf0tcS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.6"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zf0tci60EeSFCpatH6uqOw" points="[0, 0, -450, -130]$[450, 130, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zf4X0C60EeSFCpatH6uqOw" type="4003" source="_zeBWoC60EeSFCpatH6uqOw" target="_zeOK8C60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zf4X0S60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.7"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zf4X0i60EeSFCpatH6uqOw" points="[0, 0, -460, 175]$[460, -175, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zf8CMC60EeSFCpatH6uqOw" type="4003" source="_zeBWoC60EeSFCpatH6uqOw" target="_zekJMC60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zf8CMS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.8"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zf8CMi60EeSFCpatH6uqOw" points="[0, 0, -460, 175]$[460, -175, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zf_FgC60EeSFCpatH6uqOw" type="4003" source="_zeBWoC60EeSFCpatH6uqOw" target="_zdsmgC60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zf_FgS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.9"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zf_Fgi60EeSFCpatH6uqOw" points="[0, 0, -450, -130]$[450, 130, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zgCv4C60EeSFCpatH6uqOw" type="4003" source="_zeBWoC60EeSFCpatH6uqOw" target="_zeJ5gC60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zgCv4S60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.10"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zgCv4i60EeSFCpatH6uqOw" points="[0, 0, -460, 175]$[460, -175, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zgGaQC60EeSFCpatH6uqOw" type="4003" source="_zeBWoC60EeSFCpatH6uqOw" target="_zefQsC60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zgGaQS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.11"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zgGaQi60EeSFCpatH6uqOw" points="[0, 0, -250, 145]$[250, -145, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zgKrsC60EeSFCpatH6uqOw" type="4003" source="_zeBWoC60EeSFCpatH6uqOw" target="_zeYjAC60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zgKrsS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.12"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zgKrsi60EeSFCpatH6uqOw" points="[0, 0, -460, 175]$[460, -175, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zgOWEC60EeSFCpatH6uqOw" type="4003" source="_zeBWoC60EeSFCpatH6uqOw" target="_zdoVEC60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zgOWES60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.13"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zgOWEi60EeSFCpatH6uqOw" points="[0, 0, -450, -130]$[450, 130, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zgRZYC60EeSFCpatH6uqOw" type="4003" source="_zeBWoC60EeSFCpatH6uqOw" target="_zdxfAC60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zgRZYS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.14"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zgRZYi60EeSFCpatH6uqOw" points="[0, 0, -450, -130]$[450, 130, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zhBnUC60EeSFCpatH6uqOw" type="4003" source="_zeJ5gC60EeSFCpatH6uqOw" target="_zdsmgC60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zhBnUS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.15"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zhBnUi60EeSFCpatH6uqOw" points="[0, 0, 10, -305]$[-10, 305, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zhEqoC60EeSFCpatH6uqOw" type="4003" source="_zeJ5gC60EeSFCpatH6uqOw" target="_zd5a0C60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zhEqoS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.16"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zhEqoi60EeSFCpatH6uqOw" points="[0, 0, 210, -335]$[-210, 335, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zhHG4C60EeSFCpatH6uqOw" type="4003" source="_zeOK8C60EeSFCpatH6uqOw" target="_zd5a0C60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zhHG4S60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.17"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zhHG4i60EeSFCpatH6uqOw" points="[0, 0, 210, -335]$[-210, 335, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zhJjIC60EeSFCpatH6uqOw" type="4003" source="_zeScYC60EeSFCpatH6uqOw" target="_zd5a0C60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zhJjIS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.18"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zhJjIi60EeSFCpatH6uqOw" points="[0, 0, 210, -335]$[-210, 335, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zhL_YC60EeSFCpatH6uqOw" type="4003" source="_zeScYC60EeSFCpatH6uqOw" target="_zd1JYC60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zhL_YS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.19"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zhL_Yi60EeSFCpatH6uqOw" points="[0, 0, 10, -305]$[-10, 305, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zhOboC60EeSFCpatH6uqOw" type="4003" source="_zefQsC60EeSFCpatH6uqOw" target="_zd5a0C60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zhOboS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.20"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zhOboi60EeSFCpatH6uqOw" points="[0, 0, 0, -305]$[0, 305, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zhQ34C60EeSFCpatH6uqOw" type="4003" source="_zekJMC60EeSFCpatH6uqOw" target="_zd5a0C60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zhQ34S60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.21"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zhQ34i60EeSFCpatH6uqOw" points="[0, 0, 210, -335]$[-210, 335, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zhT7MC60EeSFCpatH6uqOw" type="4003" source="_zekJMC60EeSFCpatH6uqOw" target="_zd9sQC60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zhT7MS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.22"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zhT7Mi60EeSFCpatH6uqOw" points="[0, 0, 10, -305]$[-10, 305, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zhWXcC60EeSFCpatH6uqOw" type="4003" source="_zeoaoC60EeSFCpatH6uqOw" target="_zd5a0C60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zhWXcS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.23"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zhWXci60EeSFCpatH6uqOw" points="[0, 0, 210, -335]$[-210, 335, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zhYzsC60EeSFCpatH6uqOw" type="4003" source="_zeoaoC60EeSFCpatH6uqOw" target="_zdoVEC60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zhYzsS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.24"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zhYzsi60EeSFCpatH6uqOw" points="[0, 0, 10, -305]$[-10, 305, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zhbP8C60EeSFCpatH6uqOw" type="4003" source="_zet6MC60EeSFCpatH6uqOw" target="_zd5a0C60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zhbP8S60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.25"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zhbP8i60EeSFCpatH6uqOw" points="[0, 0, 210, -335]$[-210, 335, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zheTQC60EeSFCpatH6uqOw" type="4003" source="_zet6MC60EeSFCpatH6uqOw" target="_zdxfAC60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zheTQS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.26"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zheTQi60EeSFCpatH6uqOw" points="[0, 0, 10, -305]$[-10, 305, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zhgvgC60EeSFCpatH6uqOw" type="4003" source="_zeyLoC60EeSFCpatH6uqOw" target="_zd5a0C60EeSFCpatH6uqOw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zhgvgS60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:TypeDependency" href="default.reflexactoring#//@typeDependencies.27"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zhgvgi60EeSFCpatH6uqOw" points="[0, 0, 210, -335]$[-210, 335, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_zh374C60EeSFCpatH6uqOw" type="4001" source="_XbVYwC3UEeS25unQr2BdhQ" target="_HpKEAC3VEeS25unQr2BdhQ">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_zh374S60EeSFCpatH6uqOw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zh374i60EeSFCpatH6uqOw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:ModuleDependency" href="default.reflexactoring#//@moduleDenpencies.10"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zh374y60EeSFCpatH6uqOw" points="[118, 29, -384, -96]$[332, 83, -170, -42]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_KU21EEYaEeSFWOl3ULhxXA" type="4001" source="_XbVYwC3UEeS25unQr2BdhQ" target="_4tZ2YC3UEeS25unQr2BdhQ">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_KU21EUYaEeSFWOl3ULhxXA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KU21EkYaEeSFWOl3ULhxXA" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="cn.edu.fudan:ModuleDependency" href="default.reflexactoring#//@moduleDenpencies.11"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KU21E0YaEeSFWOl3ULhxXA" points="[5, -2, -214, 73]$[220, -23, 1, 52]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KU4DMEYaEeSFWOl3ULhxXA" id="(0.9745762711864406,0.4093567251461988)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KU4DMUYaEeSFWOl3ULhxXA" id="(0.002890173410404624,0.755656108597285)"/>
+  </edges>
+</notation:Diagram>

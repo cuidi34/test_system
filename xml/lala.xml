@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page type="test">
+  <pageName>lala</pageName>
+  <score>5</score>
+  <questions>
+    <question type="0" isScore="1" answer="1">
+      <prompt>sadada</prompt>
+      <answer>0</answer>
+      <score>5</score>
+    </question>
+  </questions>
+</Page>
+

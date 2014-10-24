@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cn.edu.fudan:Reflexactoring xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cn.edu.fudan="http://reflexactoring.com">
+  <modules name="IO" description=""/>
+  <modules name="Abstract Question" description=""/>
+  <modules name="Concrete Question" description=""/>
+  <modules name="Abstract Answer" description=""/>
+  <modules name="Concrete Answer" description=""/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleDependency" origin="//@modules.0" destination="//@modules.1"/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleDependency" origin="//@modules.0" destination="//@modules.3"/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleExtend" origin="//@modules.2" destination="//@modules.1"/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleExtend" origin="//@modules.4" destination="//@modules.3"/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleDependency" origin="//@modules.2" destination="//@modules.4"/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleCreation" origin="//@modules.0" destination="//@modules.2"/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleCreation" origin="//@modules.0" destination="//@modules.4"/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleDependency" origin="//@modules.1" destination="//@modules.3"/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleDependency" origin="//@modules.2" destination="//@modules.3"/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleCreation" origin="//@modules.2" destination="//@modules.4"/>
+</cn.edu.fudan:Reflexactoring>

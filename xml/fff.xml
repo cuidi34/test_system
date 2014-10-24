@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page type="test">
+  <pageName>fff</pageName>
+  <score>0</score>
+  <questions>
+    <question type="0" isScore="1" answer="0">
+      <prompt>fff</prompt>
+      <score>0</score>
+    </question>
+    <question type="5" isScore="1" answer="0">
+      <prompt>aaaaaaaaa</prompt>
+      <side1>
+        <left>2</left>
+      </side1>
+      <side2>
+        <right>1</right>
+        <right>2</right>
+      </side2>
+      <score>0</score>
+    </question>
+  </questions>
+</Page>
+

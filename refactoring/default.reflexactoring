@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cn.edu.fudan:Reflexactoring xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cn.edu.fudan="http://reflexactoring.com">
+  <modules name="IO" description="io">
+    <mappingTypes xsi:type="cn.edu.fudan:Class" name="IO" packageName="control"/>
+  </modules>
+  <modules name="Abstract Question" description="abstract question">
+    <mappingTypes xsi:type="cn.edu.fudan:Class" name="Question" packageName="question"/>
+  </modules>
+  <modules name="Concrete Question" description="concrete question">
+    <mappingTypes xsi:type="cn.edu.fudan:Class" name="ShortEssayQuestion" packageName="question"/>
+    <mappingTypes xsi:type="cn.edu.fudan:Class" name="EssayQuestion" packageName="question"/>
+    <mappingTypes xsi:type="cn.edu.fudan:Class" name="ChoiceQuestion" packageName="question"/>
+    <mappingTypes xsi:type="cn.edu.fudan:Class" name="ItemQuestion" packageName="question"/>
+    <mappingTypes xsi:type="cn.edu.fudan:Class" name="RankQuestion" packageName="question"/>
+    <mappingTypes xsi:type="cn.edu.fudan:Class" name="DecideQuestion" packageName="question"/>
+    <mappingTypes xsi:type="cn.edu.fudan:Class" name="MapQuestion" packageName="question"/>
+    <mappingTypes xsi:type="cn.edu.fudan:Class" name="PromptQuestion" packageName="question"/>
+  </modules>
+  <modules name="Abstract Answer" description="abstract answer">
+    <mappingTypes xsi:type="cn.edu.fudan:Interface" name="Answer" packageName="anwser"/>
+  </modules>
+  <modules name="Concrete Answer" description="concrete answer">
+    <mappingTypes xsi:type="cn.edu.fudan:Class" name="DecideAnswer" packageName="anwser"/>
+    <mappingTypes xsi:type="cn.edu.fudan:Class" name="TextAnswer" packageName="anwser"/>
+    <mappingTypes xsi:type="cn.edu.fudan:Class" name="MapAnswer" packageName="anwser"/>
+    <mappingTypes xsi:type="cn.edu.fudan:Class" name="ChoiceAnswer" packageName="anwser"/>
+    <mappingTypes xsi:type="cn.edu.fudan:Class" name="RankAnswer" packageName="anwser"/>
+  </modules>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleDependency" origin="//@modules.0" destination="//@modules.1" name="conformance"/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleDependency" origin="//@modules.0" destination="//@modules.3" name="conformance"/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleExtend" origin="//@modules.2" destination="//@modules.1" name="conformance"/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleExtend" origin="//@modules.4" destination="//@modules.3" name="conformance"/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleDependency" origin="//@modules.2" destination="//@modules.4" name="conformance"/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleCreation" origin="//@modules.0" destination="//@modules.2" name="conformance"/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleCreation" origin="//@modules.0" destination="//@modules.4" name="conformance"/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleDependency" origin="//@modules.1" destination="//@modules.3" name="conformance"/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleDependency" origin="//@modules.2" destination="//@modules.3" name="conformance"/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleCreation" origin="//@modules.2" destination="//@modules.4" name="conformance"/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleDependency" origin="//@modules.0" destination="//@modules.2" name="divergence"/>
+  <moduleDenpencies xsi:type="cn.edu.fudan:ModuleDependency" origin="//@modules.0" destination="//@modules.4" name="divergence"/>
+  <implements class="//@modules.4/@mappingTypes.0" interface="//@modules.3/@mappingTypes.0"/>
+  <implements class="//@modules.4/@mappingTypes.1" interface="//@modules.3/@mappingTypes.0"/>
+  <implements class="//@modules.4/@mappingTypes.2" interface="//@modules.3/@mappingTypes.0"/>
+  <implements class="//@modules.4/@mappingTypes.3" interface="//@modules.3/@mappingTypes.0"/>
+  <implements class="//@modules.4/@mappingTypes.4" interface="//@modules.3/@mappingTypes.0"/>
+  <typeDependencies origin="//@modules.0/@mappingTypes.0" destination="//@modules.2/@mappingTypes.5"/>
+  <typeDependencies origin="//@modules.0/@mappingTypes.0" destination="//@modules.2/@mappingTypes.2"/>
+  <typeDependencies origin="//@modules.0/@mappingTypes.0" destination="//@modules.3/@mappingTypes.0"/>
+  <typeDependencies origin="//@modules.0/@mappingTypes.0" destination="//@modules.4/@mappingTypes.4"/>
+  <typeDependencies origin="//@modules.0/@mappingTypes.0" destination="//@modules.2/@mappingTypes.6"/>
+  <typeDependencies origin="//@modules.0/@mappingTypes.0" destination="//@modules.2/@mappingTypes.7"/>
+  <typeDependencies origin="//@modules.0/@mappingTypes.0" destination="//@modules.4/@mappingTypes.3"/>
+  <typeDependencies origin="//@modules.0/@mappingTypes.0" destination="//@modules.2/@mappingTypes.1"/>
+  <typeDependencies origin="//@modules.0/@mappingTypes.0" destination="//@modules.2/@mappingTypes.4"/>
+  <typeDependencies origin="//@modules.0/@mappingTypes.0" destination="//@modules.4/@mappingTypes.1"/>
+  <typeDependencies origin="//@modules.0/@mappingTypes.0" destination="//@modules.2/@mappingTypes.0"/>
+  <typeDependencies origin="//@modules.0/@mappingTypes.0" destination="//@modules.1/@mappingTypes.0"/>
+  <typeDependencies origin="//@modules.0/@mappingTypes.0" destination="//@modules.2/@mappingTypes.3"/>
+  <typeDependencies origin="//@modules.0/@mappingTypes.0" destination="//@modules.4/@mappingTypes.0"/>
+  <typeDependencies origin="//@modules.0/@mappingTypes.0" destination="//@modules.4/@mappingTypes.2"/>
+  <typeDependencies origin="//@modules.2/@mappingTypes.0" destination="//@modules.4/@mappingTypes.1"/>
+  <typeDependencies origin="//@modules.2/@mappingTypes.0" destination="//@modules.3/@mappingTypes.0"/>
+  <typeDependencies origin="//@modules.2/@mappingTypes.1" destination="//@modules.3/@mappingTypes.0"/>
+  <typeDependencies origin="//@modules.2/@mappingTypes.2" destination="//@modules.3/@mappingTypes.0"/>
+  <typeDependencies origin="//@modules.2/@mappingTypes.2" destination="//@modules.4/@mappingTypes.3"/>
+  <typeDependencies origin="//@modules.1/@mappingTypes.0" destination="//@modules.3/@mappingTypes.0"/>
+  <typeDependencies origin="//@modules.2/@mappingTypes.4" destination="//@modules.3/@mappingTypes.0"/>
+  <typeDependencies origin="//@modules.2/@mappingTypes.4" destination="//@modules.4/@mappingTypes.4"/>
+  <typeDependencies origin="//@modules.2/@mappingTypes.5" destination="//@modules.3/@mappingTypes.0"/>
+  <typeDependencies origin="//@modules.2/@mappingTypes.5" destination="//@modules.4/@mappingTypes.0"/>
+  <typeDependencies origin="//@modules.2/@mappingTypes.6" destination="//@modules.3/@mappingTypes.0"/>
+  <typeDependencies origin="//@modules.2/@mappingTypes.6" destination="//@modules.4/@mappingTypes.2"/>
+  <typeDependencies origin="//@modules.2/@mappingTypes.7" destination="//@modules.3/@mappingTypes.0"/>
+  <classExtends subClass="//@modules.2/@mappingTypes.0" superClass="//@modules.2/@mappingTypes.7"/>
+  <classExtends subClass="//@modules.2/@mappingTypes.1" superClass="//@modules.1/@mappingTypes.0"/>
+  <classExtends subClass="//@modules.2/@mappingTypes.2" superClass="//@modules.2/@mappingTypes.3"/>
+  <classExtends subClass="//@modules.2/@mappingTypes.3" superClass="//@modules.1/@mappingTypes.0"/>
+  <classExtends subClass="//@modules.2/@mappingTypes.4" superClass="//@modules.2/@mappingTypes.3"/>
+  <classExtends subClass="//@modules.2/@mappingTypes.5" superClass="//@modules.2/@mappingTypes.7"/>
+  <classExtends subClass="//@modules.2/@mappingTypes.6" superClass="//@modules.1/@mappingTypes.0"/>
+  <classExtends subClass="//@modules.2/@mappingTypes.7" superClass="//@modules.1/@mappingTypes.0"/>
+</cn.edu.fudan:Reflexactoring>
