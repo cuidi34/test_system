@@ -3,7 +3,7 @@ package anwser;
 import java.util.LinkedList;
 import java.util.List;
 
-public class MapAnswer implements Answer{
+public class MapAnswer implements Answer{ /** implements relation -> Answer.java */
 
 	List<String> side1 = new LinkedList<String>();
 	List<String> side2 = new LinkedList<String>();
@@ -53,8 +53,8 @@ public class MapAnswer implements Answer{
 
 
 	@Override
-	public boolean match(Answer answer) {
-		return answer.writeAnswer().equals(this.writeAnswer());
+	public boolean match(Answer answer) { /** parameter relation -> Answer.java */
+		return answer.writeAnswer().equals(this.writeAnswer()); /** call relation -> Answer.java */
 	}
 
 }

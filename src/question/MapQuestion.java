@@ -3,18 +3,18 @@ package question;
 import java.util.LinkedList;
 import java.util.List;
 
-import anwser.Answer;
-import anwser.MapAnswer;
+import anwser.Answer; /** import relation -> Answer.java */
+import anwser.MapAnswer; /** import relation -> MapAnswer.java */
 
-public class MapQuestion extends Question {
+public class MapQuestion extends Question { /** extend relation -> Question.java */
 	
-	MapAnswer answer;
+	MapAnswer answer; /** contain relation -> MapAnswer.java */
 	List<String> side1 = new LinkedList<String>();
 	List<String> side2 = new LinkedList<String>();
 	int side;
 	
 	public MapQuestion(){
-		super(5);
+		super(5); /** call relation -> Question.java */
 	}
 	
 	public void setItem(String item) {
@@ -28,19 +28,19 @@ public class MapQuestion extends Question {
 
 	public void setAnswer(String answer) {
 		// TODO Auto-generated method stub
-		this.answer = new MapAnswer();
-		this.answer.setQuestion(side1, side2);
-		this.answer.setAnswer(answer);
+		this.answer = new MapAnswer(); /** create relation -> MapAnswer.java */
+		this.answer.setQuestion(side1, side2); /** call relation -> MapAnswer.java */
+		this.answer.setAnswer(answer); /** call relation -> MapAnswer.java */
 	}
 
-	public Answer getAnswer() {
+	public Answer getAnswer() { /** return relation -> Answer.java */
 		// TODO Auto-generated method stub
-		return answer;
+		return answer; /** use relation -> MapAnswer.java */
 	}
 
 	public boolean match(String answer) {
 		// TODO Auto-generated method stub
-		return this.answer.getAnswer().equals(answer);
+		return this.answer.getAnswer().equals(answer); /** call relation -> MapAnswer.java */
 	}
 	
 	public void setSide(int side){
@@ -48,7 +48,7 @@ public class MapQuestion extends Question {
 	}
 	
 	public String getQuestion(){
-		String ret = "Map: "+prompt+"\n";
+		String ret = "Map: "+prompt+"\n"; /** use relation -> Question.java */
 		for(int i=0; i<side1.size(); i++){
 			ret += side1.get(i)+"\t"+side2.get(i)+"\n";
 		}
@@ -115,8 +115,8 @@ public class MapQuestion extends Question {
 	}
 
 	@Override
-	public boolean match(Answer answer) {
-		return this.answer.match(answer);
+	public boolean match(Answer answer) { /** parameter relation -> Answer.java */
+		return this.answer.match(answer); /** call relation -> MapAnswer.java */
 	}
 
 	public int getSide() {
