@@ -1,6 +1,6 @@
 package anwser;
 
-public class TextAnswer implements Answer{
+public class TextAnswer implements Answer{ /** implement relation -> Answer.java */
 	
 	String text;
 	
@@ -15,7 +15,7 @@ public class TextAnswer implements Answer{
 		// TODO Auto-generated method stub
 		text = anwser;
 	}
-
+	
 	@Override
 	public String writeAnswer() {
 		// TODO Auto-generated method stub
@@ -28,8 +28,8 @@ public class TextAnswer implements Answer{
 	}
 
 	@Override
-	public boolean match(Answer answer) {
-		return answer.writeAnswer().equals(this.writeAnswer());
+	public boolean match(Answer answer) { /** return relation -> Answer.java */
+		return answer.writeAnswer().equals(this.writeAnswer()); /** call relation -> Answer.java */
 	}
 
 }
