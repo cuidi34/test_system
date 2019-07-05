@@ -3,7 +3,7 @@ package paper;
 import java.util.LinkedList;
 import java.util.List;
 
-import question.Question;
+import question.Question; /** import relation -> Question.java */
 
 public class Page {
 	
@@ -20,11 +20,11 @@ public class Page {
 		return this.pageName;
 	}
 	
-	public void addQuestion(Question question){
+	public void addQuestion(Question question){ /** parameter relation -> Question.java */
 		questionList.add(question);
 	}
 	
-	public Question getQuestion(int index){
+	public Question getQuestion(int index){ /** return relation -> Answer.java */
 		if(index >= questionList.size()){
 			return null;
 		}else{
@@ -32,7 +32,7 @@ public class Page {
 		}
 	}
 	
-	public List<Question> getQuestionList(){
+	public List<Question> getQuestionList(){ /** use relation -> Question.java */
 		return questionList;
 	}
 	
@@ -48,11 +48,11 @@ public class Page {
 		this.type = type;
 	}
 	
-	public Iterator<Question> iterator(){
+	public Iterator<Question> iterator(){ /** use relation -> Question.java */
 		return new IteratorQuestion();
 	}
 	
-	class IteratorQuestion implements Iterator<Question>{
+	class IteratorQuestion implements Iterator<Question>{ /** use relation -> Question.java */
 		int questionIndex;
 
 		@Override
@@ -64,7 +64,7 @@ public class Page {
 		}
 
 		@Override
-		public Question next() {
+		public Question next() { 
 			// TODO Auto-generated method stub
 			return questionList.get(questionIndex++);
 		}
