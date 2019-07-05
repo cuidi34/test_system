@@ -1,8 +1,8 @@
 package paper;
 
-import question.Question;
+import question.Question; /** import relation -> Question.java */
 
-public class Test extends Page {
+public class Test extends Page { /** extend relation -> Page.java */
 	int totalScore;
 	
 	public void setTotalScore(int score){
@@ -16,8 +16,8 @@ public class Test extends Page {
 	public void computeScore(){
 		totalScore = 0;
 		for(int i=0; i<questionList.size(); i++){
-			Question question = questionList.get(i);
-			totalScore += question.getScore();
+			Question question = questionList.get(i); /** contain relation -> Question.java */
+			totalScore += question.getScore(); /** call relation -> Question.java */
 		}
 	}
 }
