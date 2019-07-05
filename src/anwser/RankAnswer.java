@@ -3,7 +3,7 @@ package anwser;
 import java.util.LinkedList;
 import java.util.List;
 
-public class RankAnswer implements Answer{
+public class RankAnswer implements Answer{ /** implement relation -> Answer.java */
 	
 	List<Integer> rank = new LinkedList<Integer>();
 	List<String> question = new LinkedList<String>();
@@ -48,8 +48,8 @@ public class RankAnswer implements Answer{
 	}
 
 	@Override
-	public boolean match(Answer answer) {
-		return answer.writeAnswer().equals(this.writeAnswer());
+	public boolean match(Answer answer) { /** parameter relation -> Answer.java */
+		return answer.writeAnswer().equals(this.writeAnswer()); /** call relation -> Answer.java */
 
 	}
 
