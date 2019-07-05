@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="question.ShortEssayQuestion" x="590" y="889">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="question.PromptQuestion"/>
+        <Association destinationClassName="anwser.TextAnswer"
+            endpointName="answer" kind="Simple"/>
+        <Communication destinationClassName="anwser.TextAnswer"/>
+    </Class>
+    <Class name="question.RankQuestion" x="926" y="716">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="question.ItemQuestion"/>
+        <Association destinationClassName="anwser.RankAnswer"
+            endpointName="answer" kind="Simple"/>
+        <Communication destinationClassName="anwser.RankAnswer"/>
+    </Class>
+    <Class name="paper.Record" x="1659" y="532">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="anwser.Answer"
+            endpointName="answerList" kind="Simple"/>
+    </Class>
+    <Class name="question.EssayQuestion" x="323" y="801">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="question.Question"/>
+    </Class>
+    <Class name="question.ItemQuestion" x="679" y="572">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="question.Question"/>
+    </Class>
+    <Class name="paper.Iterator" x="1728" y="204">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="anwser.Answer" x="1472" y="767">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="anwser.RankAnswer" x="1514" y="1082">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="anwser.Answer"/>
+    </Class>
+    <Class name="paper.Page" x="1354" y="50">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="question.Question"
+            endpointName="questionList" kind="Simple"/>
+    </Class>
+    <Class name="anwser.MapAnswer" x="718" y="1075">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="anwser.Answer"/>
+    </Class>
+    <Class name="anwser.ChoiceAnswer" x="1289" y="1084">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="anwser.Answer"/>
+    </Class>
+    <Class name="question.DecideQuestion" x="393" y="896">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="question.PromptQuestion"/>
+        <Association destinationClassName="anwser.DecideAnswer"
+            endpointName="answer" kind="Simple"/>
+        <Communication destinationClassName="anwser.DecideAnswer"/>
+    </Class>
+    <Class name="anwser.TextAnswer" x="1725" y="1081">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="anwser.Answer"/>
+    </Class>
+    <Class name="view.ComandView" x="1205" y="481">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="control.Control"
+            endpointName="control" kind="Simple"/>
+        <Communication destinationClassName="control.Control"/>
+    </Class>
+    <Class name="paper.Record.AnswerIterator" x="1386" y="199">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="control.Control" x="578" y="20">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="question.Question"
+            endpointName="question" kind="Simple"/>
+        <Association destinationClassName="control.IO" endpointName="io" kind="Simple"/>
+        <Association destinationClassName="paper.Record"
+            endpointName="record" kind="Simple"/>
+        <Association destinationClassName="paper.Page"
+            endpointName="page" kind="Simple"/>
+        <Communication destinationClassName="question.ShortEssayQuestion"/>
+        <Communication destinationClassName="question.RankQuestion"/>
+        <Communication destinationClassName="paper.Record"/>
+        <Communication destinationClassName="question.ItemQuestion"/>
+        <Communication destinationClassName="anwser.DecideAnswer"/>
+        <Communication destinationClassName="control.IO"/>
+        <Communication destinationClassName="question.MapQuestion"/>
+        <Communication destinationClassName="anwser.Answer"/>
+        <Communication destinationClassName="anwser.RankAnswer"/>
+        <Communication destinationClassName="paper.Page"/>
+        <Communication destinationClassName="anwser.MapAnswer"/>
+        <Communication destinationClassName="anwser.ChoiceAnswer"/>
+        <Communication destinationClassName="question.DecideQuestion"/>
+        <Communication destinationClassName="anwser.TextAnswer"/>
+        <Communication destinationClassName="paper.Test"/>
+        <Communication destinationClassName="question.ChoiceQuestion"/>
+        <Communication destinationClassName="question.Question"/>
+    </Class>
+    <Class name="anwser.DecideAnswer" x="1048" y="1093">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="anwser.Answer"/>
+    </Class>
+    <Class name="control.IO" x="71" y="80">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="question.ShortEssayQuestion"/>
+        <Communication destinationClassName="question.RankQuestion"/>
+        <Communication destinationClassName="paper.Record"/>
+        <Communication destinationClassName="question.EssayQuestion"/>
+        <Communication destinationClassName="question.ItemQuestion"/>
+        <Communication destinationClassName="anwser.DecideAnswer"/>
+        <Communication destinationClassName="question.MapQuestion"/>
+        <Communication destinationClassName="anwser.RankAnswer"/>
+        <Communication destinationClassName="paper.Page"/>
+        <Communication destinationClassName="anwser.MapAnswer"/>
+        <Communication destinationClassName="anwser.ChoiceAnswer"/>
+        <Communication destinationClassName="question.DecideQuestion"/>
+        <Communication destinationClassName="anwser.TextAnswer"/>
+        <Communication destinationClassName="paper.Test"/>
+        <Communication destinationClassName="question.ChoiceQuestion"/>
+        <Communication destinationClassName="question.Question"/>
+        <Communication destinationClassName="question.PromptQuestion"/>
+    </Class>
+    <Class name="question.MapQuestion" x="84" y="682">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="question.Question"/>
+        <Association destinationClassName="anwser.MapAnswer"
+            endpointName="answer" kind="Simple"/>
+        <Communication destinationClassName="anwser.MapAnswer"/>
+    </Class>
+    <Class name="paper.Survey" x="1779" y="138">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="paper.Page"/>
+    </Class>
+    <Class name="paper.Test" x="1779" y="52">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="paper.Page"/>
+        <Communication destinationClassName="question.Question"/>
+    </Class>
+    <Class name="question.ChoiceQuestion" x="685" y="718">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="question.ItemQuestion"/>
+        <Association destinationClassName="anwser.ChoiceAnswer"
+            endpointName="answer" kind="Simple"/>
+        <Communication destinationClassName="anwser.ChoiceAnswer"/>
+    </Class>
+    <Class name="paper.Page.IteratorQuestion" x="1568" y="198">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="question.Question" x="349" y="577">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="question.PromptQuestion" x="527" y="720">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="question.Question"/>
+    </Class>
+</ClassDiagram>
