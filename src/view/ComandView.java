@@ -3,10 +3,10 @@ package view;
 import java.util.List;
 import java.util.Scanner;
 
-import control.Control;
+import control.Control; /** import relation -> Control.java */
 
 public class ComandView {
-	Control control = new Control();
+	Control control = new Control(); /** contain relation -> Control.java */ /** create relation -> Control.java */
 	Scanner sc = new Scanner(System.in);
 	int type;
 	
@@ -38,8 +38,8 @@ public class ComandView {
 		case 2: this.createPage(1);break;
 		case 3: this.display(0);break;
 		case 4: this.display(1);break;
-		case 5: control.save();break;
-		case 6: control.save();break;
+		case 5: control.save();break; /** call relation -> Control.java */
+		case 6: control.save();break; /** call relation -> Control.java */
 		case 7: this.modify(0);break;
 		case 8:	this.modify(1);break;
 		case 9: this.answer(0);break;
@@ -51,10 +51,10 @@ public class ComandView {
 	}
 	
 	public void createPage(int type){
-		control.createPage(1);
+		control.createPage(1); /** call relation -> Control.java */
 		System.out.println("Please input your pageName");
 		String name = sc.next();
-		control.setPageName(name);
+		control.setPageName(name); /** call relation -> Control.java */
 		this.type = type;
 		this.addQuestion();
 		System.out.println();
@@ -62,12 +62,12 @@ public class ComandView {
 
 	public void display(int type){
 		System.out.println("choose the page:");
-		List<String> pageNameList = control.getPageName(type);
+		List<String> pageNameList = control.getPageName(type); /** call relation -> Control.java */
 		for(int i=0; i<pageNameList.size(); i++){
 			System.out.println(i+": "+pageNameList.get(i));
 		}
 		int pageNumber = sc.nextInt();
-		List<String> question = control.displayPage(pageNumber, type);
+		List<String> question = control.displayPage(pageNumber, type); /** call relation -> Control.java */
 		for(int i=0; i<question.size(); i++){
 			System.out.println(question.get(i));
 		}
@@ -80,7 +80,7 @@ public class ComandView {
 		this.display(type);
 		System.out.println("Please choose which question that you want to modify: ");
 		int index = sc.nextInt();
-		int next  = control.modify(index);
+		int next  = control.modify(index); /** call relation -> Control.java */
 		switch(next){
 		case 0:this.modifyTFQuestion();break;
 		case 1:this.modifyChooicQuestion();break;
@@ -94,26 +94,26 @@ public class ComandView {
 
 	public void answer(int type){
 		Scanner scan = new Scanner(System.in);
-		List<String> nameList = control.getPageName(type);
+		List<String> nameList = control.getPageName(type); /** call relation -> Control.java */
 		for(int i=0; i<nameList.size(); i++){
 			System.out.println(i+") "+nameList.get(i));
 		}
 		
 		int pageIndex = sc.nextInt();
-		control.loadPage(pageIndex, 1);
+		control.loadPage(pageIndex, 1); /** call relation -> Control.java */
 		System.out.println("Input your name: ");
 		String personName = scan.nextLine();
-		control.setRecordName(personName);
+		control.setRecordName(personName); /** call relation -> Control.java */
 		
-		while(control.hasNextQuestion()){
-			System.out.println(control.nextQuestion());
+		while(control.hasNextQuestion()){ /** call relation -> Control.java */
+			System.out.println(control.nextQuestion()); /** call relation -> Control.java */
 			String answer = scan.nextLine();
-			control.answerQuestion(answer);
+			control.answerQuestion(answer); /** call relation -> Control.java */
 		}
 		
 		System.out.println("Ok, it's all!");
-		control.saveAnswer();
-	}
+		control.saveAnswer(); /** call relation -> Control.java */
+	} 
 
 	public void displayOutcome(int type){
 		System.out.println("choose the page:");
@@ -137,11 +137,11 @@ public class ComandView {
 		if(next == 1){
 			System.out.println("Please input new prompt: ");
 			String prompt = scan.nextLine();
-			control.setPrompt(prompt);
+			control.setPrompt(prompt); /** call relation -> Control.java */
 		}else if(next == 2 && type == 1){
 			System.out.println("Please input new anwser: ");
 			String answer = scan.nextLine();
-			control.setAnswer(answer);
+			control.setAnswer(answer); /** call relation -> Control.java */
 		}else{
 			System.out.println("We don't hava this item");
 		}
@@ -161,11 +161,11 @@ public class ComandView {
 		switch(next){
 		case 1: System.out.println("Please input new prompt:");
 				String prompt = scan.nextLine();
-				control.setPrompt(prompt);
+				control.setPrompt(prompt); /** call relation -> Control.java */ 
 				break;
 		case 2: System.out.println("Please input new item number");
 				int num = sc.nextInt();
-				boolean outcome2 = control.changeItemNumber(num);
+				boolean outcome2 = control.changeItemNumber(num); /** call relation -> Control.java */
 				if(outcome2){
 					System.out.println("Ok, it has changed");
 				}{
@@ -173,7 +173,7 @@ public class ComandView {
 				}
 		case 3: System.out.println("Please input new choice:");
 				String item = scan.nextLine();
-				control.setItem(item);
+				control.setItem(item); /** call relation -> Control.java */
 				break;
 		case 4: System.out.println("Please input the index of the choice");
 				int index = sc.nextInt();
@@ -200,7 +200,7 @@ public class ComandView {
 					return;
 				System.out.println("Please input new answer:");
 				String answer = scan.nextLine();
-				control.setAnswer(answer);
+				control.setAnswer(answer); /** call relation -> Control.java */
 				break;
 		default: System.out.println("This is a wrong input");
 		}
@@ -217,7 +217,7 @@ public class ComandView {
 		switch(next){
 		case 1: System.out.println("Please input new prompt:");
 				String prompt = scan.nextLine();
-				control.setPrompt(prompt);
+				control.setPrompt(prompt); /** call relation -> Control.java */
 				break;
 		case 2: System.out.println("Please input new number:");
 				int num = sc.nextInt();
@@ -232,7 +232,7 @@ public class ComandView {
 				int index = sc.nextInt();
 				System.out.println("Please input the new item");
 				String item = scan.nextLine();
-				boolean outcome = control.changeItem(index, item);
+				boolean outcome = control.changeItem(index, item); /** call relation -> Control.java */
 				if(outcome){
 					System.out.println("Ok, it has changed");
 				}{
@@ -243,7 +243,7 @@ public class ComandView {
 					return;
 				System.out.println("Please input new answer:");
 				String answer = scan.nextLine();
-				control.setAnswer(answer);
+				control.setAnswer(answer); /** call relation -> Control.java */
 				break;
 		default: System.out.println("This is a wrong input");
 		}
@@ -261,7 +261,7 @@ public class ComandView {
 		switch(next){
 		case 1: System.out.println("Please input new prompt:");
 				String prompt = scan.nextLine();
-				control.setPrompt(prompt);
+				control.setPrompt(prompt); /** call relation -> Control.java */
 				break;
 		case 2: System.out.println("Please input new Number: ");
 				int num = sc.nextInt();
@@ -272,7 +272,7 @@ public class ComandView {
 					System.out.println("We don't have this item");
 				}
 				break;
-		case 3: control.setSide(1);
+		case 3: control.setSide(1); /** call relation -> Control.java */
 				boolean outcome = this.changeItem();
 				if(outcome){
 					System.out.println("Ok, it has changed");
@@ -280,7 +280,7 @@ public class ComandView {
 					System.out.println("We don't have this item");
 				}
 				break;
-		case 4: control.setSide(2);
+		case 4: control.setSide(2); /** call relation -> Control.java */
 				boolean outcome1 = this.changeItem();
 				if(outcome1){
 					System.out.println("Ok, it has changed");
@@ -292,7 +292,7 @@ public class ComandView {
 					return;
 				System.out.println("Please input new answer: ");
 				String answer = scan.nextLine();
-				control.setAnswer(answer);
+				control.setAnswer(answer); /** call relation -> Control.java */
 				break;
 		}
 	}
@@ -303,14 +303,14 @@ public class ComandView {
 		int index = sc.nextInt();
 		System.out.println("Please input new item");
 		String item = scan.nextLine();
-		return control.changeItem(index, item);
+		return control.changeItem(index, item); /** call relation -> Control.java */
 	}
 	
 	public void modifyEssayQuestion(){
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please input new prompt: ");
 		String prompt = scan.nextLine();
-		control.setPrompt(prompt);
+		control.setPrompt(prompt); /** call relation -> Control.java */
 	}
 	
 	
@@ -347,10 +347,10 @@ public class ComandView {
 			String answer = scan.nextLine();
 			System.out.println("Please enter your score\n");
 			int score = sc.nextInt();
-			control.createDecideQuestion(prompt, score, answer);
+			control.createDecideQuestion(prompt, score, answer); /** call relation -> Control.java */
 			return;
 		}
-		control.createDecideQuestion(prompt);
+		control.createDecideQuestion(prompt); /** call relation -> Control.java */
 	}
 	
 	public void addChoiceQuestion(){
@@ -369,10 +369,10 @@ public class ComandView {
 			String answer = scan.nextLine();
 			System.out.println("Please enter your score\n");
 			int score = sc.nextInt();
-			control.createChoiceQuestion(prompt, items, score, answer);
+			control.createChoiceQuestion(prompt, items, score, answer); /** call relation -> Control.java */
 			return;
 		}
-		control.createChoiceQuestion(prompt, items);
+		control.createChoiceQuestion(prompt, items); /** call relation -> Control.java */
 	}
 	
 	public void addTextQuestion(){
@@ -384,17 +384,17 @@ public class ComandView {
 			String answer = scan.nextLine();
 			System.out.println("Please enter your score\n");
 			int score = sc.nextInt();
-			control.createTextQuestion(prompt, score, answer);
+			control.createTextQuestion(prompt, score, answer); /** call relation -> Control.java */
 			return;
 		}
-		control.createTextQuestion(prompt);
+		control.createTextQuestion(prompt); /** call relation -> Control.java */
 	}
 	
 	public void addEssayQuestion(){
 		System.out.println("Enter the prompt for you essay question:");
 		Scanner scan = new Scanner(System.in);
 		String prompt = scan.nextLine();
-		control.createEssayQuestion(prompt);
+		control.createEssayQuestion(prompt); /** call relation -> Control.java */
 	}
 	
 	public void addMapQuestion(){
@@ -420,14 +420,14 @@ public class ComandView {
 			String answer = scan.nextLine();
 			System.out.println("Please enter your score\n");
 			int score = sc.nextInt();
-			control.createMapQuestion(prompt, side1, side2, score, answer);
+			control.createMapQuestion(prompt, side1, side2, score, answer); /** call relation -> Control.java */
 			return;
 		}
 		control.createMapQuestion(prompt, side1, side2);
 	}
 	
 	public void addRankQuestion(){
-		System.out.println("Enter the prompt for you rank question:");
+		System.out.println("Enter the prompt for you rank question:"); /** call relation -> Control.java */
 		Scanner scan = new Scanner(System.in);
 		String prompt = scan.nextLine();
 		System.out.println("Please enter your choice number");
@@ -442,10 +442,10 @@ public class ComandView {
 			String answer = scan.nextLine();
 			System.out.println("Please enter your score\n");
 			int score = sc.nextInt();
-			control.createRankQuestion(prompt, items, score, answer);
+			control.createRankQuestion(prompt, items, score, answer); /** call relation -> Control.java */
 			return;
 		}
-		control.createRankQuestion(prompt, items);
+		control.createRankQuestion(prompt, items); /** call relation -> Control.java */
 	}
 	
 }
