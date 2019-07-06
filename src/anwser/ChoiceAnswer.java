@@ -2,7 +2,7 @@ package anwser;
 
 import java.util.List;
 
-public class ChoiceAnswer implements Answer{
+public class ChoiceAnswer implements Answer{ /** implement relation -> Answer.java */
 	
 	int[] anwser;
 	List<String> item;
@@ -45,8 +45,8 @@ public class ChoiceAnswer implements Answer{
 	}
 
 	@Override
-	public boolean match(Answer answer) {
-		return answer.writeAnswer().equals(this.writeAnswer());
+	public boolean match(Answer answer) { /** parameter relation -> Answer.java */
+		return answer.writeAnswer().equals(this.writeAnswer()); /** call relation -> Answer.java */
 	}
 	
 	
