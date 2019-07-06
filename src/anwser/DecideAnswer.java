@@ -1,6 +1,6 @@
 package anwser;
 
-public class DecideAnswer implements Answer{
+public class DecideAnswer implements Answer{ /** implement relation -> Answer.java */
 	
 	int anwser;
 	
@@ -33,8 +33,8 @@ public class DecideAnswer implements Answer{
 
 
 	@Override
-	public boolean match(Answer answer) {
-		return answer.writeAnswer().equals(this.writeAnswer());
+	public boolean match(Answer answer) {/** parameter relation -> Answer.java */
+		return answer.writeAnswer().equals(this.writeAnswer()); /** call relation -> Answer.java */
 	}
 
 }
