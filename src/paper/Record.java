@@ -3,11 +3,11 @@ package paper;
 import java.util.LinkedList;
 import java.util.List;
 
-import anwser.Answer;
+import anwser.Answer; /** import relation -> Answer.java */
 
 public class Record {
 	
-	List<Answer> answerList = new LinkedList<Answer>();
+	List<Answer> answerList = new LinkedList<Answer>(); /** use relation -> Answer.java */
 	int score;
 	String personName;
 	int index;
@@ -25,18 +25,18 @@ public class Record {
 		this.personName = personName;
 	}
 	
-	public void addAnwser(Answer answer){
+	public void addAnwser(Answer answer){ /** parameter relation -> Answer.java */
 		answerList.add(answer);
 	}
 	
-	public Answer getAnswer(int index){
+	public Answer getAnswer(int index){ /** return relation -> Answer.java */
 		if(index < answerList.size()){
 			return answerList.get(index); 
 		}
 		return null;
 	}
 	
-	public Answer getAnswer(){
+	public Answer getAnswer(){ /** return relation -> Answer.java */
 		return answerList.get(index++);
 	}
 	
@@ -48,7 +48,7 @@ public class Record {
 		return true;
 	}	
 	
-	public Iterator<Answer> iterator(){
+	public Iterator<Answer> iterator(){ /** use relation -> Answer.java */
 		return new AnswerIterator();
 	}
 	
@@ -66,7 +66,7 @@ public class Record {
 		}
 
 		@Override
-		public anwser.Answer next() {
+		public anwser.Answer next() { /** return relation -> Answer.java */
 			// TODO Auto-generated method stub
 			return answerList.get(answerIndex++);
 		}
