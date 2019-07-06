@@ -3,16 +3,16 @@ package question;
 import java.util.LinkedList;
 import java.util.List;
 
-import anwser.Answer;
-import anwser.ChoiceAnswer;
+import anwser.Answer; /** import relation -> Answer.java */
+import anwser.ChoiceAnswer; /** import relation -> ChoiceAnswer.java */
 
 
-public class ChoiceQuestion extends ItemQuestion {
-	List<String> items = new LinkedList<String>();
-	ChoiceAnswer answer;
+public class ChoiceQuestion extends ItemQuestion { /** extend relation -> Answer.java */
+	List<String> items = new LinkedList<String>(); 
+	ChoiceAnswer answer; /** contain relation -> ChoiceAnswer.java */
 	
 	public ChoiceQuestion(){
-		super(1);
+		super(1); /** call relation -> Question.java */
 	}
 	
 	public void setItem(String item) {
@@ -20,22 +20,22 @@ public class ChoiceQuestion extends ItemQuestion {
 	}
 
 	public void setAnswer(String answer) {
-		this.answer = new ChoiceAnswer();
-		this.answer.setItem(items);
-		this.answer.setAnswer(answer);
+		this.answer = new ChoiceAnswer(); /** create relation -> ChoiceAnswer.java */
+		this.answer.setItem(items); /** call relation -> ChoiceAnswer.java */
+		this.answer.setAnswer(answer); /** call relation -> ChoiceAnswer.java */
 	}
 
-	public Answer getAnswer() {
-		return answer;
+	public Answer getAnswer() { /** return relation -> Answer.java */
+		return answer; /** use relation -> ChoiceAnswer.java */
 	}
 
 	public boolean match(String answer) {
 		// TODO Auto-generated method stub
-		return this.answer.equals(answer);
+		return this.answer.equals(answer); /** call relation -> ChoiceAnswer.java */
 	}
 	
 	public String getQuestion(){
-		String ret = "ChoiceQuestion: "+prompt+"\n";
+		String ret = "ChoiceQuestion: "+prompt+"\n"; /** use relation -> Question.java */
 		for(int i=0; i<items.size(); i++){
 			ret += items.get(i)+"\n";
 		}
@@ -74,8 +74,8 @@ public class ChoiceQuestion extends ItemQuestion {
 	}
 
 	@Override
-	public boolean match(Answer answer) {
-		return this.answer.match(answer);
+	public boolean match(Answer answer) { /** parameter relation -> Answer.java */
+		return this.answer.match(answer); /** call relation -> ChoiceAnswer.java */
 	}
 
 }
