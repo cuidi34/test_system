@@ -8,68 +8,68 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-import paper.Test;
-import question.ChoiceQuestion;
-import question.DecideQuestion;
-import question.EssayQuestion;
-import question.MapQuestion;
-import question.RankQuestion;
-import question.ShortEssayQuestion;
-import control.IO;
+import paper.Test; /** import relation -> Test.java */
+import question.ChoiceQuestion; /** import relation -> ChoiceQuestion.java */
+import question.DecideQuestion; /** import relation -> DecideQuestion.java */
+import question.EssayQuestion; /** import relation -> EssayQuestion.java */
+import question.MapQuestion; /** import relation -> MapQuestion.java */
+import question.RankQuestion; /** import relation -> RankQuestion.java */
+import question.ShortEssayQuestion; /** import relation -> ShortEssayQuestion.java */
+import control.IO; /** import relation -> Test.java */
 
 public class TestWrite {
 
 	@org.junit.Test
 	public void test() {
 		
-		IO io = new IO();
+		IO io = new IO(); /** contain relation -> IO.java */ /** create relation -> IO.java */
 		
-		Test test = new Test();
-		test.setType("test");
-		test.setPageName("test");
-		test.setTotalScore(100);
+		Test test = new Test(); /** contain relation -> Test.java */ /** create relation -> Test.java */
+		test.setType("test"); /** call relation -> Test.java */
+		test.setPageName("test"); /** call relation -> Test.java */
+		test.setTotalScore(100); /** call relation -> Test.java */
 		
-		ChoiceQuestion cq = new ChoiceQuestion();
-		cq.setAnswer("0");
-		cq.setItem("item");
-		cq.setPrompt("cq");
-		cq.setScore(1);
-		test.getQuestionList().add(cq);
+		ChoiceQuestion cq = new ChoiceQuestion(); /** contain relation -> ChoiceQuestion.java */ /** create relation -> ChoiceQuestion.java */
+		cq.setAnswer("0"); /** call relation -> ChoiceQuestion.java */
+		cq.setItem("item"); /** call relation -> ChoiceQuestion.java */
+		cq.setPrompt("cq"); /** call relation -> Question.java */
+		cq.setScore(1); /** call relation -> Question.java */
+		test.getQuestionList().add(cq); /** call relation -> Test.java */
 		
-		DecideQuestion dq = new DecideQuestion();
-		dq.setAnswer("1");
-		dq.setPrompt("ff");
-		dq.setScore(12);
-		test.getQuestionList().add(dq);
+		DecideQuestion dq = new DecideQuestion(); /** contain relation -> DecideQuestion.java */ /** create relation -> DecideQuestion.java */
+		dq.setAnswer("1"); /** call relation -> DecideQuestion.java */
+		dq.setPrompt("ff"); /** call relation -> Question.java */
+		dq.setScore(12); /** call relation -> Question.java */
+		test.getQuestionList().add(dq); /** call relation -> Test.java */
 		
-		EssayQuestion eq = new EssayQuestion();
-		eq.setAnswer("2");
-		eq.setPrompt("fff");
-		eq.setScore(4);
-		test.getQuestionList().add(eq);
+		EssayQuestion eq = new EssayQuestion(); /** contain relation -> EssayQuestion.java */ /** create relation -> EssayQuestion.java */
+		eq.setAnswer("2"); /** call relation -> EssayQuestion.java */
+		eq.setPrompt("fff"); /** call relation -> Question.java */
+		eq.setScore(4); /** call relation -> Question.java */
+		test.getQuestionList().add(eq); /** call relation -> Test.java */
 		
-		MapQuestion mq = new MapQuestion();
-		mq.setAnswer("3");
-		mq.setItem("tea");
-		mq.setPrompt("fffffaa");
-		mq.setScore(3);
-		mq.setSide(2);
-		test.getQuestionList().add(mq);
+		MapQuestion mq = new MapQuestion(); /** contain relation -> MapQuestion.java */ /** create relation -> MapQuestion.java */
+		mq.setAnswer("3"); /** call relation -> MapQuestion.java */
+		mq.setItem("tea"); /** call relation -> MapQuestion.java */
+		mq.setPrompt("fffffaa"); /** call relation -> Question.java */
+		mq.setScore(3); /** call relation -> Question.java */
+		mq.setSide(2); /** call relation -> MapQuestion.java */
+		test.getQuestionList().add(mq); /** call relation -> Test.java */
 		
-		RankQuestion rq = new RankQuestion();
-		rq.setAnswer("4");
-		rq.setItem("ee");
-		rq.setPrompt("vvv");
-		rq.setScore(7);
-		test.getQuestionList().add(rq);
+		RankQuestion rq = new RankQuestion(); /** contain relation -> RankQuestion.java */ /** create relation -> RankQuestion.java */
+		rq.setAnswer("4"); /** call relation -> RankQuestion.java */
+		rq.setItem("ee"); /** call relation -> RankQuestion.java */
+		rq.setPrompt("vvv"); /** call relation -> Question.java */
+		rq.setScore(7); /** call relation -> Question.java */
+		test.getQuestionList().add(rq); /** call relation -> RankQuestion.java */
 		
-		ShortEssayQuestion seq = new ShortEssayQuestion();
-		seq.setAnswer("5");
-		seq.setPrompt("rrrr");
-		seq.setScore(6);
-		test.getQuestionList().add(seq);
+		ShortEssayQuestion seq = new ShortEssayQuestion(); /** contain relation -> ShortEssayQuestion.java */ /** create relation -> ShortEssayQuestion.java */
+		seq.setAnswer("5"); /** call relation -> ShortEssayQuestion.java */
+		seq.setPrompt("rrrr"); /** call relation -> ShortEssayQuestion.java */
+		seq.setScore(6); /** call relation -> Question.java */
+		test.getQuestionList().add(seq); /** call relation -> Question.java */
 		
-		io.writePage(test);
+		io.writePage(test); /** call relation -> IO.java */
 		
 		 try {
 			 //read test.xml and test0.xml and compare
