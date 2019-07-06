@@ -1,5 +1,5 @@
 package paper;
 
-public class Survey extends Page {
+public class Survey extends Page { /** extend relation -> Page.java */
 	
 }
