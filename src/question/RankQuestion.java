@@ -35,7 +35,7 @@ public class RankQuestion extends ItemQuestion {
 	}
 	
 	public String getQuestion(){
-		String ret = "Rank: "+prompt + "\n";
+		String ret = "Rank: "+prompt + "\n"; /** use relation -> Question.java */
 		for(int i=0; i<items.size(); i++){
 			ret += items.get(i)+"\n";
 		}
